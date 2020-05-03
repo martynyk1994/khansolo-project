@@ -22,6 +22,7 @@ def random_addition():
             print("Correct! You've gotten " + str(correct_attempt) + " correct in a row.")
             correct_attempt += 1
     print("Congratulations!  You mastered addition.")
+    print(" ")
     print("The next step is learn how to subtract!")
 
 def random_substaction():
@@ -40,6 +41,7 @@ def random_substaction():
             print("Correct! You've gotten " + str(correct_attempt) + " correct in a row.")
             correct_attempt += 1
     print("Congratulations!  You mastered substraction.\n")
+    print(" ")
     print("Next step is to learn multiplication!\n")
 
 
@@ -59,7 +61,8 @@ def random_multiplication():
             print("Correct! You've gotten " + str(correct_attempt) + " correct in a row.")
             correct_attempt += 1
     print("Congratulations!  You mastered multiplication\n.")
-    #print("Next step is to learn division!\n")
+    print(" ")
+   #print("Next step is to learn division!\n")
     
 # def random_division():
 #     correct_attempt = 1
